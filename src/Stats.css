@@ -1,0 +1,108 @@
+*{
+    font-family: 'Droid Arabic Kufi', sans-serif; /* Use the font here */
+    font-weight: bold;}
+.stats-container {
+    display: flex;
+    gap: 30px; 
+    padding: 40px; 
+    background-color: #fff4ee; 
+}
+
+.stats-left {
+    flex: 1; 
+}
+
+.stats-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('/public/bckg1.jpg') no-repeat center/cover;
+    border-radius: 16px;
+    color: white;
+    text-align: center;
+    padding: 50px; 
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15); 
+}
+
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
+    gap: 25px; 
+  }
+  
+  .stat-card {
+    background-color: #fff;
+    border: 1px solid #ececec;
+    border-radius: 12px; 
+    padding: 30px; 
+    text-align: center;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .stat-card:hover {
+    transform: translateY(-8px); 
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .stat-icon {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Increase padding to adjust spacing */
+}
+
+.stat-icon img {
+    width: 70px;
+    border-radius: 25%;
+    height: 70px;
+}
+  
+  .stat-card h3 {
+    font-size: 1.6rem; 
+    color: #333;
+    margin: 15px 0 10px;
+  }
+  
+  .stat-card p {
+    font-size: 1.8rem; 
+    color: #ff6b00;
+    font-weight: bold;
+  }
+  
+  .highlight-card {
+    text-align: center;
+  }
+  
+  .highlight-card h3 {
+    font-size: 1.8rem; 
+    margin-bottom: 20px;
+  }
+  
+  .highlight-card p {
+    font-size: 4.8rem; 
+    font-weight: bold;
+    margin: auto;
+    color: white;
+  }
+  
+  .highlight-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .highlight-icon img {
+    width: 90px;
+    border-radius: 25%;
+    height: 90px;
+  }
+  .stats-left {
+    width: 60%; /* Assign specific width to the left section */
+}
+
+.stats-right {
+    width: 40%; /* Assign specific width to the right section */
+}

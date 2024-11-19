@@ -1,0 +1,161 @@
+* {
+    font-family: 'Droid Arabic Kufi', sans-serif; /* Use the font here */
+    font-weight: bold;
+}
+
+.waves---main-container {
+    max-width: 1352px;
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 100vh; /* Ensure the full height of the viewport */
+    overflow-y: hidden; /* Prevent scrolling on the main container */
+}
+
+#w-node-_63a3ea50-9b8a-f2d7-ab57-b2ab86258071-dcbdb778 {
+    grid-area: span 1 / span 1 / span 1 / span 1;
+    align-self: stretch;
+    position: sticky;
+    top: 88px;
+    overflow-y: scroll; /* Ensure scrolling */
+    max-height: calc(100vh - 88px); /* Adjust height for sticky offset */
+
+    /* Hide scrollbar */
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer */
+}
+
+#w-node-_63a3ea50-9b8a-f2d7-ab57-b2ab86258071-dcbdb778::-webkit-scrollbar {
+    display: none; /* For Chrome, Edge, and Safari */
+}
+
+/* EDIT START: Scrollable fix for the left section */
+#w-node-_63a3ea50-9b8a-f2d7-ab57-b2ab86258067-dcbdb778 {
+    grid-area: span 1 / span 1 / span 1 / span 1;
+    justify-self: start;
+    max-height: calc(100vh - 88px);
+}
+
+#w-node-_63a3ea50-9b8a-f2d7-ab57-b2ab86258067-dcbdb778::-webkit-scrollbar {
+    display: none; /* For Chrome, Edge, and Safari */
+}
+/* EDIT END */
+
+.waves---grid-halves-sticky {
+    grid-column-gap: 40px;
+    grid-template-rows: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    flex-direction: row-reverse;
+}
+
+.waves---sticky-halves {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 570px;
+    display: flex;
+}
+.waves---content-sticky-features-2 {
+    grid-row-gap: 24px;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    width: 100%;
+    text-align: right;
+    max-width: 500px;
+    display: flex
+;
+}
+
+.waves---heading-2-no-margins {
+    color: #ef5b0c;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Droid Arabic Kufi', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.waves---paragraph-big {
+    font-family: 'Droid Arabic Kufi', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.a-feature-button-wrapper {
+    grid-column-gap: 16px;
+    grid-row-gap: 8px;
+    align-items: center;
+    margin-top: 24px;
+    display: flex;
+}
+
+.text-block {
+    font-weight: 600;
+}
+
+.waves---master-tiles-features-2 {
+    grid-row-gap: 24px;
+    flex-direction: column;
+    width: 100%;
+    max-width: 570px;
+    display: flex;
+}
+
+.waves-tile-features-2 {
+    grid-row-gap: 16px;
+    border: 2px none #ef5b0c;
+    background-color: #ffefe547;
+    border-radius: 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 44px 40px;
+    display: flex;
+}
+
+.text-block-5 {
+    font-family: 'Droid Arabic Kufi', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.waves---heading-3-no-margins {
+    color: #ef5b0c;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Droid Arabic Kufi', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.text-block {
+    font-weight: 600;
+}
+
+.button.cc-contact-us {
+    z-index: 5;
+    background-color: #ef5b0c;
+    border-radius: 50px;
+    color: white;
+    text-decoration-line: none;
+    padding: 15px 40px;
+    font-family: 'Droid Arabic Kufi', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    position: relative;
+    margin:  0 0 0 auto;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
