@@ -1,108 +1,153 @@
-*{
-    font-family: 'Droid Arabic Kufi', sans-serif; /* Use the font here */
-    font-weight: bold;}
+* {
+  font-family: 'Droid Arabic Kufi', sans-serif;
+  font-weight: bold;
+}
+
 .stats-container {
-    display: flex;
-    gap: 30px; 
-    padding: 40px; 
-    background-color: #fff4ee; 
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+  background-color: #fff4ee;
 }
 
 .stats-left {
-    flex: 1; 
+  flex: 1;
 }
 
 .stats-right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url('/public/bckg1.jpg') no-repeat center/cover;
-    border-radius: 16px;
-    color: white;
-    text-align: center;
-    padding: 50px; 
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('/public/bg2.png') no-repeat bottom/cover;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
 }
 
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
 
-  .stats-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
-    gap: 25px; 
-  }
-  
-  .stat-card {
-    background-color: #fff;
-    border: 1px solid #ececec;
-    border-radius: 12px; 
-    padding: 30px; 
-    text-align: center;
-    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .stat-card:hover {
-    transform: translateY(-8px); 
-    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
-  }
-  
-  .stat-icon {
+.stat-card {
+  background-color: #fff;
+  border: 1px solid #ececec;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px; /* Increase padding to adjust spacing */
+.stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.stat-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
 }
 
 .stat-icon img {
-    width: 70px;
-    border-radius: 25%;
-    height: 70px;
+  width: 60px;
+  border-radius: 20%;
+  height: 60px;
 }
-  
-  .stat-card h3 {
-    font-size: 1.6rem; 
-    color: #333;
-    margin: 15px 0 10px;
-  }
-  
-  .stat-card p {
-    font-size: 1.8rem; 
-    color: #ff6b00;
-    font-weight: bold;
-  }
-  
-  .highlight-card {
-    text-align: center;
-  }
-  
-  .highlight-card h3 {
-    font-size: 1.8rem; 
-    margin-bottom: 20px;
-  }
-  
-  .highlight-card p {
-    font-size: 4.8rem; 
-    font-weight: bold;
-    margin: auto;
-    color: white;
-  }
-  
-  .highlight-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .highlight-icon img {
-    width: 90px;
-    border-radius: 25%;
-    height: 90px;
-  }
-  .stats-left {
-    width: 60%; /* Assign specific width to the left section */
+
+.stat-card h3 {
+  font-size: 1.4rem;
+  color: #333;
+  margin: 10px 0 8px;
+}
+
+.stat-card p {
+  font-size: 1.5rem;
+  color: #ff6b00;
+  font-weight: bold;
+}
+
+.highlight-card {
+  text-align: center;
+}
+
+.highlight-card h3 {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+}
+
+.highlight-card p {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: auto;
+  color: white;
+}
+
+.highlight-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.highlight-icon img {
+  width: 80px;
+  border-radius: 20%;
+  height: 80px;
+}
+
+.stats-left {
+  width: 55%;
 }
 
 .stats-right {
-    width: 40%; /* Assign specific width to the right section */
+  width: 45%;
+}
+
+@media screen and (max-width: 754px) {
+  .stat-card {
+      padding: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .stats-container {
+      flex-direction: column;
+      gap: 15px;
+      padding: 15px;
+  }
+
+  .stats-left, .stats-right {
+      width: 100%;
+  }
+
+  .stats-right {
+      padding: 20px;
+      background-size: cover;
+  }
+
+  .stats-grid {
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 10px;
+  }
+
+  .stat-card {
+      padding: 10px;
+  }
+
+  .stat-card h3 {
+      font-size: 0.9rem;
+  }
+
+  .stat-card p {
+      font-size: 1rem;
+  }
+
+  .highlight-card p {
+      font-size: 2rem;
+  }
 }

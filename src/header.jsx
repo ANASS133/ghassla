@@ -9,9 +9,9 @@ function Header() {
 
         <nav>
           <ul className="nav-links">
-            <li><a href="#faq-section">عن غسلة</a></li>
+            <li><a href="#">عن غسلة</a></li>
             <li><a href="#">العروض و الخدمات</a></li>
-            <li><a href="#">الأسئلة الشائعة</a></li>
+            <li><a href="#faq-section">الأسئلة الشائعة</a></li>
           </ul>
         </nav>
         <div className="logo">

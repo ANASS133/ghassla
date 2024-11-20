@@ -1,5 +1,5 @@
 * {
-    font-family: 'Droid Arabic Kufi', sans-serif; /* Use the font here */
+    font-family: 'Droid Arabic Kufi', sans-serif; 
     font-weight: bold;
 }
 
@@ -7,8 +7,8 @@
     max-width: 1352px;
     padding-left: 24px;
     padding-right: 24px;
-    height: 100vh; /* Ensure the full height of the viewport */
-    overflow-y: hidden; /* Prevent scrolling on the main container */
+    height: 100vh; 
+    overflow-y: hidden; 
 }
 
 #w-node-_63a3ea50-9b8a-f2d7-ab57-b2ab86258071-dcbdb778 {
@@ -16,11 +16,11 @@
     align-self: stretch;
     position: sticky;
     top: 88px;
-    overflow-y: scroll; /* Ensure scrolling */
+    overflow-y: scroll;
     max-height: calc(100vh - 88px); /* Adjust height for sticky offset */
 
     /* Hide scrollbar */
-    scrollbar-width: none; /* For Firefox */
+    scrollbar-width: none; 
     -ms-overflow-style: none; /* For Internet Explorer */
 }
 
@@ -28,7 +28,6 @@
     display: none; /* For Chrome, Edge, and Safari */
 }
 
-/* EDIT START: Scrollable fix for the left section */
 #w-node-_63a3ea50-9b8a-f2d7-ab57-b2ab86258067-dcbdb778 {
     grid-area: span 1 / span 1 / span 1 / span 1;
     justify-self: start;
@@ -36,7 +35,7 @@
 }
 
 #w-node-_63a3ea50-9b8a-f2d7-ab57-b2ab86258067-dcbdb778::-webkit-scrollbar {
-    display: none; /* For Chrome, Edge, and Safari */
+    display: none; 
 }
 /* EDIT END */
 
@@ -114,6 +113,7 @@
     align-items: flex-start;
     padding: 44px 40px;
     display: flex;
+    direction: rtl;
 }
 
 .text-block-5 {

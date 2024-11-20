@@ -36,8 +36,8 @@ const FAQ = () => {
   ];
 
   return (
-    <div className="faq-section">
-      <h2 className="faq-title">أسئلة شائعة</h2>
+    <div className="faq-section">    <div id="faq-section">
+      <center><h1 className="faq-title">أسئلة شائعة</h1></center>
       <div className="faq-container">
         {questions.map((item, index) => (
           <div key={index} className="faq-item" onClick={() => toggleAnswer(index)}>
@@ -49,7 +49,7 @@ const FAQ = () => {
             </div>
           </div>
         ))}
-      </div>
+      </div></div>
     </div>
   );
 };

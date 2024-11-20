@@ -22,9 +22,8 @@ function App() {
   return (
     <>
       <Header />
-      <br />
       <First />
-      <br /><br />
+      <br /><br /><br />
       <div className="container1">
         <div className="cards-section">
           <br /><div ref={cardsRef} className={`fade-in ${cardsInView ? 'visible' : ''}`}><Cards /></div><br /><br /><br />
@@ -36,7 +35,7 @@ function App() {
       <br />
       <div ref={statsRef} className={`fade-in ${statsInView ? 'visible' : ''}`}>
         <Stats/>
-      </div><br /><br />
+      </div><br /><br /><br /><br />
       <div ref={hihiRef} className={`fade-in ${hihiInView ? 'visible' : ''}`}>
         <Hihi/>
       </div><br /><br />
@@ -45,7 +44,6 @@ function App() {
       </div>
       <br /><br />
       <HeroSection/>
-      <br />
       <Footer/>
     </>
   );

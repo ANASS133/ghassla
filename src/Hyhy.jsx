@@ -10,7 +10,6 @@ function Hihi() {
         <div className="waves---main-container w-container">
           <div className="w-layout-grid waves---grid-halves-sticky">
 
-            {/* Right Features Section (Moved to the Left) */}
             <div id="w-node-_63a3ea50-9b8a-f2d7-ab57-b2ab86258071-dcbdb778" className="waves---master-tiles-features-2">
               <div className="waves-tile-features-2">
                 <h1 className="waves---heading-3-no-margins">تجربة ناجحة</h1>
@@ -50,7 +49,6 @@ function Hihi() {
               </div>
             </div>
 
-            {/* Left Section (Moved to the Right) */}
             <div id="w-node-_63a3ea50-9b8a-f2d7-ab57-b2ab86258067-dcbdb778" className="waves---sticky-halves-left">
               <div className="waves---sticky-halves">
                 <div className="waves---content-sticky-features-2">
@@ -62,7 +60,7 @@ function Hihi() {
                     استثمارك معنا يمثل الفرصة المثالية للانضمام إلى عائلة غسلة وتحقيق النجاح في عالم غسيل السيارات مع دعم قوي وفرص كبيرة للنمو.
                   </div>
                   <div className="a-feature-button-wrapper">
-                    <a href="https://app.adjust.com/1cdjqgjr" className="button cc-contact-us w-inline-block">
+                    <a href="" className="button cc-contact-us w-inline-block">
                       <div className="text-block">جرب غسلة الآن</div>
                     </a>
                   </div>
