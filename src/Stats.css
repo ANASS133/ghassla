@@ -15,10 +15,12 @@
 }
 
 .stats-right {
+  width: 45%; /* Adjust width for right side */
   display: flex;
-  justify-content: center;
+  flex-direction: column; /* Stack content vertically */
+  justify-content: flex-start;
   align-items: center;
-  background: url('/public/bg2.png') no-repeat bottom/cover;
+  background: url('/public/a2.png') no-repeat bottom/cover;
   border-radius: 12px;
   color: white;
   text-align: center;
@@ -30,6 +32,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
+  margin-top: 20px; /* Add space between the right section and the cards */
 }
 
 .stat-card {
@@ -104,50 +107,46 @@
   width: 55%;
 }
 
-.stats-right {
-  width: 45%;
-}
-
 @media screen and (max-width: 754px) {
   .stat-card {
-      padding: 20px;
+    padding: 20px;
   }
 }
 
 @media screen and (max-width: 1000px) {
   .stats-container {
-      flex-direction: column;
-      gap: 15px;
-      padding: 15px;
+    flex-direction: column;
+    padding: 15px;
   }
 
   .stats-left, .stats-right {
-      width: 100%;
+    width: 100%;
   }
 
   .stats-right {
-      padding: 20px;
-      background-size: cover;
+    padding: 20px;
+    background-size: cover;
   }
 
   .stats-grid {
-      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-      gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 10px;
+    margin-top: 20px; /* Add space between the right section and the cards */
   }
 
   .stat-card {
-      padding: 10px;
+    padding: 10px;
   }
 
   .stat-card h3 {
-      font-size: 0.9rem;
+    font-size: 0.9rem;
   }
 
   .stat-card p {
-      font-size: 1rem;
+    font-size: 1rem;
   }
 
   .highlight-card p {
-      font-size: 2rem;
+    font-size: 2rem;
   }
 }

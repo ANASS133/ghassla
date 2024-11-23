@@ -1,5 +1,5 @@
 import React from 'react';
-import { useInView } from 'react-intersection-observer';  // Import intersection observer hook
+import { useInView } from 'react-intersection-observer';
 import './App.css';
 import './Organise.css';
 import Cards from './Cards';
@@ -42,8 +42,8 @@ function App() {
       <div ref={faqRef} className={`fade-in ${faqInView ? 'visible' : ''}`}>
         <FAQ/>
       </div>
-      <br /><br />
       <HeroSection/>
+      <div style={{ backgroundColor: "#ffefe547", height: "10px" }}></div>
       <Footer/>
     </>
   );

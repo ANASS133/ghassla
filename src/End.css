@@ -57,6 +57,22 @@
     background-color: white;
     color: #ff7f00;
   }
+  /* before end media */
+
+  @media (max-width: 892px) {
+    .hero-content p {
+      font-size: 1rem;
+  }
+  .hero-content h1 {
+    font-size: 2rem;
+}}
+
+@media (max-width: 892px) {
+  .hero-content p {
+    font-size: 0.85rem;}
+.hero-content h1 {
+  font-size: 1.6rem;}
+} 
   /* footer */
   .footer {
     background-color: #f9f9f9;
@@ -138,3 +154,28 @@
 .social-icons img:hover {
     transform: scale(1.1); /* Slight zoom effect on hover */
 }
+
+/* footer media */
+
+@media (max-width: 564px) {
+  .footer-links a {
+    font-size: 0.8rem;
+}
+.footer-terms a {
+  font-size: 0.8rem;
+}
+.footer-copy {
+  font-size: 0.8rem;
+}
+} 
+@media (max-width: 480px) {
+  .footer-links a {
+    font-size: 0.75rem;
+}
+.footer-terms a {
+  font-size: 0.75rem;
+}
+.footer-copy {
+  font-size: 0.75rem;
+}
+} 
