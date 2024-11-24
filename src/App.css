@@ -170,11 +170,12 @@ html {
     transition: height 0.3s ease, padding 0.3s ease; 
   }
 
-  .nav-links.open {
-    height: 215px; 
-    margin-top: -28px;
-    padding: 15px 0; 
-  }
+    .nav-links.open {
+        height: 215px;
+        margin-top: -163px;
+        padding: 15px 0;
+    }
+
 
   .nav-links li {
     margin: 10px 0;
@@ -332,6 +333,23 @@ html {
         margin-bottom: 0px;
     }
   }
+
+  /* ----- */
+  @media (max-width: 550px) {
+    .promo-section {
+      padding: 20px; /* Adjust padding for smaller screens */
+    }
+  
+    .promo-content {
+      margin: 0; /* Ensure no margin is added */
+    }
+  
+    .promo-content h1, .promo-content p {
+      margin: 0; /* Remove any extra margins */
+    }
+  }
+
+  
 
 /* whyus */
 .why-us {

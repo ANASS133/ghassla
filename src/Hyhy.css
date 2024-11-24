@@ -159,3 +159,85 @@ div {
     display: block;
     unicode-bidi: isolate;
 }
+
+/* media */
+
+@media (max-width: 833px) {
+    .waves---paragraph-big {
+        font-size: 16px;
+    }
+  
+    .waves---heading-2-no-margins {
+        font-size: 39px;
+    }
+  
+    .text-block-5 {
+        font-size: 14px;
+        line-height: 27px;
+    }
+    .waves---heading-3-no-margins {
+        font-size: 21px;
+    }
+  }
+  @media (max-width: 687px) {
+    .waves---heading-2-no-margins {
+        font-size: 33px;
+    }
+}
+  
+@media (max-width: 615px) {
+    .waves---grid-halves-sticky {
+      grid-template-columns: 1fr; /* Make the grid a single column */
+      grid-row-gap: 24px; /* Add spacing between the two sections */
+    }
+  
+    #w-node-_63a3ea50-9b8a-f2d7-ab57-b2ab86258071-dcbdb778 {
+      grid-column: 1; /* Ensure it spans the full width */
+      grid-row: 2; /* Place it below the other section */
+    }
+  
+    #w-node-_63a3ea50-9b8a-f2d7-ab57-b2ab86258067-dcbdb778 {
+      grid-column: 1; /* Ensure it spans the full width */
+      grid-row: 1; /* Place it above */
+    }
+  }
+  @media (max-width: 615px) {
+    .waves---main-container {
+        height: 292vh;     
+  }
+  #w-node-_63a3ea50-9b8a-f2d7-ab57-b2ab86258071-dcbdb778 {
+    grid-area: span 1 / span 1 / span 1 / span 1;
+    /* align-self: stretch; */
+    position:unset;
+    top: 9px;
+    overflow-y:visible;
+    max-height: calc(0 - 0);
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+}
+@media (max-width: 554px) {
+    .waves---main-container {
+        height: 303vh;
+    }
+}
+@media (max-width: 490px) {
+    .waves---main-container {
+        height: 331vh;
+    }
+}
+@media (max-width: 408px) {
+    .waves---main-container {
+        height: 342vh;
+    }
+}@media (max-width: 390px) {
+    .waves---main-container {
+        height: 353vh;
+    }
+}
+@media (max-width: 358px) {
+    .waves---main-container {
+        height: 360vh;
+    }
+}
+  
