@@ -67,6 +67,12 @@
     font-size: 2rem;
 }}
 
+@media (max-width: 366px) {
+  .hero-content p {
+      font-size: 0.77rem;
+  }
+}
+
 @media (max-width: 892px) {
   .hero-content p {
     font-size: 0.85rem;}

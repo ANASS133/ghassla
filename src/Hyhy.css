@@ -218,26 +218,32 @@ div {
 }
 @media (max-width: 554px) {
     .waves---main-container {
-        height: 303vh;
-    }
+        height: 1722px;    }
 }
 @media (max-width: 490px) {
     .waves---main-container {
-        height: 331vh;
+        height: 1780px; /* 331vh -> (331 / 100) * 750 */
     }
 }
 @media (max-width: 408px) {
     .waves---main-container {
-        height: 342vh;
+        height: 1928px; /* 342vh -> (342 / 100) * 700 */
     }
-}@media (max-width: 390px) {
+}
+@media (max-width: 390px) {
     .waves---main-container {
-        height: 353vh;
+        height: 1964px; /* 353vh -> (353 / 100) * 650 */
     }
 }
 @media (max-width: 358px) {
     .waves---main-container {
-        height: 360vh;
+        height: 2037px; /* 360vh -> (360 / 100) * 600 */
+    }
+}@media (max-width: 338px) {
+    .waves---main-container {
+        height: 2168px;
     }
 }
+
+
   
