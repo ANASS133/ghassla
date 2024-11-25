@@ -13,7 +13,9 @@
 .stats-left {
   flex: 1;
 }
-
+.stats-left2{
+  display: none;
+}
 .stats-right {
   width: 45%; /* Adjust width for right side */
   display: flex;
@@ -119,12 +121,19 @@
     padding: 15px;
   }
 
-  .stats-left, .stats-right {
+  .stats-left{
+    display: none;  }
+    .stats-left2{
+      width: 100%;
+      display: block;
+       }
+
+  .stats-right {
     width: 100%;
   }
 
   .stats-right {
-    padding: 20px;
+    padding: 0px;
     background-size: cover;
   }
 

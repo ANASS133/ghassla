@@ -49,6 +49,19 @@ const Stats = () => {
           <p>5,768</p>
         </div>
       </div>
+      <div className="stats-left2">
+        <div className="stats-grid">
+          {statsData.map((stat, index) => (
+            <div key={index} className="stat-card">
+              <div className="stat-icon">
+                <img src={stat.icon} alt={stat.title} />
+              </div>
+              <h3>{stat.title}</h3>
+              <p>{stat.value}</p>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };
