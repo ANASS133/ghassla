@@ -11,10 +11,7 @@ function Header() {
   return (
     <header className="header">
       <div className="container">
-        {/* Call-to-Action Button */}
         <button className="cta-button">جرب غسلة الآن</button>
-
-        {/* Navigation Links */}
         <nav>
           <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
             <li><a href="#">عن غسلة</a></li>
