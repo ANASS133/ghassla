@@ -63,12 +63,18 @@
     font-size: 2.5rem;
   }
 }
+
 @media (max-width: 400px) {
   .faq-answer {
     font-size: 0.75rem;
   }
     .faq-question {
       font-size: 0.75rem;
+  }
+} 
+@media (max-width: 560px) {
+  .faq-container {
+    grid-template-columns: repeat(1, 1fr); 
   }
 } 
 

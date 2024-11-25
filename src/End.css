@@ -2,7 +2,7 @@
     font-family: 'Droid Arabic Kufi', sans-serif; /* Use the font here */
     font-weight: bold;}
 .hero-section {
-    background-color: #ff7f00;
+    background-color: #ff6600;
     color: white;
     text-align: center;
     padding: 50px 20px;
@@ -37,7 +37,7 @@
 }
   
   .try-button {
-    background-color: #ff7f00;
+    background-color: #ff6600;
     color: white;
     font-weight: bold;
     border: white 2px solid;
