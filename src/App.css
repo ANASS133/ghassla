@@ -452,10 +452,9 @@ html {
   background-color: #d65d1b;
 }
 .features {
-  margin-left: 50px;
   display: grid;
   gap: 30px; /* Ensures consistent gap between the cards */
-  width: 100%;
+  width: 125%;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: stretch; /* Ensures the cards are of equal height */
@@ -466,7 +465,6 @@ html {
   border: 1px solid #ececec;
   border-radius: 8px;
   padding: 20px;
-  width: 100%;
   text-align: center;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -481,7 +479,6 @@ html {
 .icon {
   width: 40px;
   height: 40px;
-  margin-bottom: 15px;
   border-radius: 50%;
   background-color: #fff;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
@@ -510,7 +507,12 @@ html {
   .feature-card h3 {
     font-size: 1rem;
   }
-  }
+  } 
+  @media (max-width: 1122px) {
+    .features {
+      width: 145%;
+    }}
+
   @media (max-width: 1182px) {
     .right-section .description {
       font-size: 0.9rem;
@@ -565,7 +567,8 @@ html {
     width: auto; 
 }
 .features {
-     width: auto; 
+         margin: 0 auto;
+    width: 80%; 
 }
 }
 @media (max-width: 714px) {

@@ -51,7 +51,6 @@
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    max-width: 570px;
     display: flex;
 }
 .waves---content-sticky-features-2 {
@@ -60,15 +59,12 @@
     /* align-items: flex-start; */
     width: 100%;
     text-align: right;
-    max-width: 500px;
     display: flex
 ;
 }
 
 .waves---heading-2-no-margins {
     color: #ef5b0c;
-    margin-top: 0;
-    margin-bottom: 0;
     font-family: 'Droid Arabic Kufi', sans-serif;
     font-weight: bold;
     font-size: 48px;
@@ -126,8 +122,6 @@
 
 .waves---heading-3-no-margins {
     color: #ef5b0c;
-    margin-top: 0;
-    margin-bottom: 0;
     font-family: 'Droid Arabic Kufi', sans-serif;
     font-weight: bold;
     font-size: 24px;
@@ -246,4 +240,11 @@ div {
 }
 
 
+/* @media (max-width: 588px) {
+    .waves---main-container {
+        height: 550vh;
+    }
+    #w-node-_63a3ea50-9b8a-f2d7-ab57-b2ab86258071-dcbdb778 {
+      margin-top: 170px;}
+} */
   

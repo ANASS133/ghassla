@@ -33,23 +33,40 @@ const FAQ = () => {
       question: "ما هي المناطق التي يغطيها تطبيق غسلة؟",
       answer: "التطبيق يغطي معظم المدن الرئيسية، مع خطط للتوسع في المستقبل لتشمل جميع المناطق.",
     },
+    // New Questions
+    {
+      question: "هل يمكنني متابعة حالة الطلب بعد تقديمه؟",
+      answer: "نعم، يمكنك متابعة حالة الطلب من خلال التطبيق ومعرفة الوقت المتوقع لوصول الخدمة.",
+    },
+    {
+      question: "ما هي ساعات عمل تطبيق غسلة؟",
+      answer: "التطبيق يعمل على مدار الساعة لتوفير الخدمة في أي وقت يناسبك.",
+    },
   ];
 
   return (
-    <div className="faq-section">    <div id="faq-section">
-      <center><h1 className="faq-title">أسئلة شائعة</h1></center>
-      <div className="faq-container">
-        {questions.map((item, index) => (
-          <div key={index} className="faq-item" onClick={() => toggleAnswer(index)}>
-            <div className="faq-question">{item.question}</div>
+    <div className="faq-section">
+      <div id="faq-section">
+        <center>
+          <h1 className="faq-title">أسئلة شائعة</h1>
+        </center>
+        <div className="faq-container">
+          {questions.map((item, index) => (
             <div
-              className={`faq-answer ${activeIndex === index ? "active" : ""}`}
+              key={index}
+              className="faq-item"
+              onClick={() => toggleAnswer(index)}
             >
-              {item.answer}
+              <div className="faq-question">{item.question}</div>
+              <div
+                className={`faq-answer ${activeIndex === index ? "active" : ""}`}
+              >
+                {item.answer}
+              </div>
             </div>
-          </div>
-        ))}
-      </div></div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };

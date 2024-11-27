@@ -16,7 +16,7 @@
 
 @media (max-width: 800px) {
   .container1 {
-    flex-direction: column-reverse; /* Ensures cards-section is below whyus-section */
+    flex-direction: column-reverse; 
     padding: 0 20px;
   }
 
@@ -24,7 +24,6 @@
   .whyus-section {
     flex: none;
     width: 100%;
-    margin-bottom: 20px; /* Optional: Add spacing */
   }
 }
 @media (max-width: 980px) {

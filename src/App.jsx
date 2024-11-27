@@ -32,7 +32,6 @@ function App() {
           <div ref={whyusRef} className={`fade-in ${whyusInView ? 'visible' : ''}`}><Whyus /></div>
         </div>
       </div>
-      <br />
       <div ref={statsRef} className={`fade-in ${statsInView ? 'visible' : ''}`}>
         <Stats/>
       </div><br /><br /><br /><br />
