@@ -11,6 +11,10 @@ import HeroSection from "./HeroSection";
 import Footer from './Footer';
 import Hihi from './Hyhy';
 import FAQ from './Questions';
+import MostSalesA from './mostSalesCards';
+import Banner from './banner';
+import Features2 from './features2';
+import ProductA from './products';
 
 function App() {
   const { ref: cardsRef, inView: cardsInView } = useInView({ triggerOnce: true });
@@ -23,7 +27,11 @@ function App() {
     <>
       <Header />
       <First />
-      <br /><br /><br />
+        <MostSalesA/>
+      <Features2/>
+          <div ref={whyusRef} className={`fade-in ${whyusInView ? 'visible' : ''}`}>
+            <center><Banner /></center> 
+            </div>
       <div className="container1">
         <div className="cards-section">
           <br /><div ref={cardsRef} className={`fade-in ${cardsInView ? 'visible' : ''}`}><Cards /></div><br /><br /><br />
@@ -32,6 +40,7 @@ function App() {
           <div ref={whyusRef} className={`fade-in ${whyusInView ? 'visible' : ''}`}><Whyus /></div>
         </div>
       </div>
+      <ProductA/>
       <div ref={statsRef} className={`fade-in ${statsInView ? 'visible' : ''}`}>
         <Stats/>
       </div><br /><br /><br /><br />

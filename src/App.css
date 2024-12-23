@@ -617,3 +617,106 @@ html {
   opacity: 1;
   transform: translateY(0);
 }
+/* ------------------------ */
+.most-sales-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Reduce min width */
+  gap: 15px; /* Slightly smaller gap */
+  padding: 15px; /* Reduce padding */
+}
+
+.most-sales-card {
+  border: 1px solid #ddd;
+  border-radius: 8px; /* Slightly smaller corners */
+  overflow: hidden;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Slightly less shadow */
+  background-color: #fff;
+  transition: transform 0.3s;
+}
+
+.most-sales-card:hover {
+  transform: translateY(-4px); /* Slightly less movement */
+}
+
+.most-sales-image {
+  width: 100%;
+  object-fit: contain; /* Maintain aspect ratio */
+  background-color: #f9f9f9;
+}
+.most-sales-header {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between the line and the title */
+  margin: 20px 15px 10px; /* Space around the title */
+}
+
+.most-sales-header::before {
+  content: "";
+  flex: 1; /* Ensures the line takes up available space */
+  height: 2px;
+  background-color: #ef5b0c; /* Adjust color of the line */
+}
+
+.most-sales-header h2 {
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  font-weight: bold;
+  color: #ef5b0c; /* Adjust color of the title */
+  margin: 0; /* Remove extra spacing */
+}
+
+.most-sales-content {
+  padding: 10px; /* Reduce content padding */
+}
+
+.most-sales-title {
+  font-size: 1rem; /* Smaller title font */
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.most-sales-subtitle {
+  font-size: 0.8rem; /* Smaller subtitle font */
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.most-sales-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px; /* Reduce margin */
+}
+
+.most-sales-discount-price {
+  color: red;
+  font-weight: bold;
+  font-size: 0.9rem; /* Slightly smaller */
+}
+
+.most-sales-original-price {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 0.8rem; /* Slightly smaller */
+}
+
+.most-sales-rating {
+  font-size: 0.8rem; /* Smaller font for rating */
+  color: #ff9800;
+}
+
+
+/* --------- banner */
+
+.banner-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0; /* Ensure no extra margin is applied */
+  padding: 0; /* Ensure no extra padding is applied */
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  display: block; /* Removes inline image spacing issues */
+}
