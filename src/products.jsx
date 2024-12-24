@@ -26,7 +26,7 @@ const ProductA = () => {
         subtitle: "فرش سيارة فاخر يبدأ من 299 درهم فقط",
         price: "500 درهم",
         discountPrice: "299 درهم",
-        image: "./prd1.png",
+        image: "./prd1-min.png",
         rating: "5",
       },
       {
@@ -34,7 +34,7 @@ const ProductA = () => {
         subtitle: "قفازات قيادة عالية الجودة فقط بـ 149 درهم",
         price: "250 درهم",
         discountPrice: "149 درهم",
-        image: "./prd2.png",
+        image: "./prd2-min.png",
         rating: "4.5",
       },
       {
@@ -42,7 +42,7 @@ const ProductA = () => {
         subtitle: "فاجئ أحبائك ببطاقة هدية بقيمة 500 درهم",
         price: "500 درهم",
         discountPrice: "500 درهم",
-        image: "./prd3.png",
+        image: "./prd3-min.png",
         rating: "5",
       },
     ];

@@ -26,7 +26,7 @@ const MostSalesA = () => {
       subtitle: "غسلة فقط بـ 599 درهم",
       price: "1300 DH",
       discountPrice: "520.87 DH",
-      image: "./most1.png",
+      image: "./most1-min.png",
       rating: "5",
     },
     {
@@ -34,7 +34,7 @@ const MostSalesA = () => {
         subtitle: "20 غسلة فقط بـ 299 درهم",
         price: "1300 DH",
         discountPrice: "520.87 DH",
-        image: "./most5.png",
+        image: "./most5-min.png",
         rating: "5",
       },
     {
@@ -42,7 +42,7 @@ const MostSalesA = () => {
       subtitle: "10 غسلات فقط بـ 399 درهم",
       price: "650 DH",
       discountPrice: "346.96 DH",
-      image: "most2.png",
+      image: "most2-min.png",
       rating: 5,
     },
     {
@@ -50,7 +50,7 @@ const MostSalesA = () => {
       subtitle: "تجاوزنا الحدود بـ 499 درهم",
       price: "699 DH",
       discountPrice: "433.91 DH",
-      image: "most3.png",
+      image: "most3-min.png",
       rating: 5,
     },
     {
@@ -58,7 +58,7 @@ const MostSalesA = () => {
       subtitle: "Let Your Car Shine",
       price: "65 DH",
       discountPrice: "52 DH",
-      image: "most4.png",
+      image: "most4-min.png",
       rating: 5,
     },
   ];
