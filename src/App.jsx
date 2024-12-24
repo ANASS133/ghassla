@@ -27,9 +27,13 @@ function App() {
     <>
       <Header />
       <First />
-        <MostSalesA/>
+      <MostSalesA/>
       <Features2/>
-          <div ref={whyusRef} className={`fade-in ${whyusInView ? 'visible' : ''}`}>
+    
+      <div ref={whyusRef} className={`fade-in ${whyusInView ? 'visible' : ''}`}>
+            <center><ProductA/></center> 
+            </div>
+            <div ref={whyusRef} className={`fade-in ${whyusInView ? 'visible' : ''}`}>
             <center><Banner /></center> 
             </div>
       <div className="container1">
@@ -39,11 +43,7 @@ function App() {
         <div className="whyus-section">
           <div ref={whyusRef} className={`fade-in ${whyusInView ? 'visible' : ''}`}><Whyus /></div>
         </div>
-      </div>
-      <ProductA/>
-      <div ref={statsRef} className={`fade-in ${statsInView ? 'visible' : ''}`}>
-        <Stats/>
-      </div><br /><br /><br /><br />
+       </div> <Stats/><br /><br /><br /><br />
       <div ref={hihiRef} className={`fade-in ${hihiInView ? 'visible' : ''}`}>
         <Hihi/>
       </div><br /><br />

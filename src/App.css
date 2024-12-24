@@ -682,26 +682,34 @@ html {
 
 .most-sales-price {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin-bottom: 8px; /* Reduce margin */
+  justify-content: space-between; /* Space out price and rating */
+  margin-bottom: 8px;
+  position: relative; /* Ensure elements align properly */
+}
+
+.most-sales-discount-price,
+.most-sales-original-price {
+  margin-right: 5px; /* Add some spacing between discount and original price */
+  display: inline-block; /* Ensure they align together */
 }
 
 .most-sales-discount-price {
   color: red;
   font-weight: bold;
-  font-size: 0.9rem; /* Slightly smaller */
+  font-size: 0.9rem;
 }
 
 .most-sales-original-price {
   text-decoration: line-through;
   color: #999;
-  font-size: 0.8rem; /* Slightly smaller */
+  font-size: 0.8rem;
 }
 
 .most-sales-rating {
-  font-size: 0.8rem; /* Smaller font for rating */
+  font-size: 0.8rem;
   color: #ff9800;
+  margin-left: auto; /* Push rating to the far right */
 }
 
 

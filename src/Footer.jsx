@@ -1,22 +1,29 @@
 import React from "react";
-import ReactDOM from 'react-dom'
 import "./End.css";
 
 const Footer = () => {
   return (
     <footer className="footer">
+      <div className="footer-back-to-top">
+        <button 
+          className="back-to-top-button" 
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        >
+          الرجوع للأعلى
+        </button>
+      </div>
+      <br /><br />
       <div className="footer-top">
         <div className="social-icons">
-<a aria-label="Chat on WhatsApp" href="https://wa.me/353871683234"  target="_blank" rel="noopener noreferrer">
-<img alt="Chat on WhatsApp" src="whatsapp.png" /></a>
-      
+          <a aria-label="Chat on WhatsApp" href="https://wa.me/353871683234" target="_blank" rel="noopener noreferrer">
+            <img alt="Chat on WhatsApp" src="whatsapp.png" />
+          </a>
         </div>
         <div className="footer-links">
           <a href="#about">عن غسلة</a>
           <a href="#contact">تواصل معنا</a>
         </div>
       </div>
-      <hr />
       <div className="footer-bottom">
         <div className="footer-terms">
           <a href="#privacy">سياسة الخصوصية</a> |

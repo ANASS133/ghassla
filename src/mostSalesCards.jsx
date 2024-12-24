@@ -11,8 +11,9 @@ const MostSales = ({ title, subtitle, price, discountPrice, image, rating }) => 
         <div className="most-sales-price">
           <span className="most-sales-discount-price">{discountPrice}</span>
           <span className="most-sales-original-price">{price}</span>
+          <div className="most-sales-rating">⭐{rating}</div>
         </div>
-        <div className="most-sales-rating">⭐{rating}</div>
+        
       </div>
     </div></>
   );

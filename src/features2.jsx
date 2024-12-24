@@ -6,7 +6,7 @@ const Features2 = () => {
     <div className="features2-container">
       <div className="features2">
         <div className="logo">
-          <p>مميزات كابتنز</p>
+          <p>مميزات غسلة</p>
         </div>
         <div className="features-list">
           <div className="feature">
