@@ -25,10 +25,16 @@ function App() {
 
   return (
     <>
+
       <Header />
       <First />
-      <MostSalesA/>
-      <Features2/>
+      <div ref={whyusRef} className={`fade-in ${whyusInView ? 'visible' : ''}`}>
+            <center><MostSalesA/></center> 
+            </div>
+            <div ref={whyusRef} className={`fade-in ${whyusInView ? 'visible' : ''}`}>
+            <center>      <Features2/></center> 
+            </div>
+
     
       <div ref={whyusRef} className={`fade-in ${whyusInView ? 'visible' : ''}`}>
             <center><ProductA/></center> 
