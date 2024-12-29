@@ -6,7 +6,8 @@
 .stats-container {
   display: flex;
   gap: 20px;
-  padding: 30px;
+  border-radius: 50px;
+  padding: 127px 30px;
   background-color: #fff4ee;
 }
 

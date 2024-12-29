@@ -53,7 +53,7 @@ function Hihi() {
               <div className="waves---sticky-halves">
                 <div className="waves---content-sticky-features-2">
                   <h2 className="waves---heading-2-no-margins">
-                    لماذا تستثمر معنا <br />في غسلة
+                    عن غسلة
                   </h2>
                   <div className="waves---paragraph-big">
                     نحن في غسلة نقدر الفرصة للشراكة معك ونرى العديد من الأسباب المقنعة للاستثمار معنا.<br /><br />

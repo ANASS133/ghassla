@@ -27,37 +27,44 @@ function App() {
     <>
 
       <Header />
-      <First />
-      <div ref={whyusRef} className={`fade-in ${whyusInView ? 'visible' : ''}`}>
+      <div className="alles">
+      <First /><br /><br />
+      <div id="most-sales-container">
+        <div ref={whyusRef} className={`fade-in ${whyusInView ? 'visible' : ''}`}>
             <center><MostSalesA/></center> 
             </div>
+      </div>
+      
             <div ref={whyusRef} className={`fade-in ${whyusInView ? 'visible' : ''}`}>
             <center>      <Features2/></center> 
-            </div>
+            </div><br /><br />
 
     
       <div ref={whyusRef} className={`fade-in ${whyusInView ? 'visible' : ''}`}>
-            <center><ProductA/></center> 
+            <center><ProductA/></center> <br /><br />
             </div>
+        </div>
             <div ref={whyusRef} className={`fade-in ${whyusInView ? 'visible' : ''}`}>
-            <center><Banner /></center> 
+            <Banner /> <br /><br />
             </div>
-      <div className="container1">
+        <div className="alles">
+      <div className="container1" id='container1'>
         <div className="cards-section">
-          <br /><div ref={cardsRef} className={`fade-in ${cardsInView ? 'visible' : ''}`}><Cards /></div><br /><br /><br />
+          <br /><div ref={cardsRef} className={`fade-in ${cardsInView ? 'visible' : ''}`}><Cards /></div><br /><br />
         </div>
         <div className="whyus-section">
-          <div ref={whyusRef} className={`fade-in ${whyusInView ? 'visible' : ''}`}><Whyus /></div>
+          <div ref={whyusRef} className={`fade-in ${whyusInView ? 'visible' : ''}`}><Whyus /><br /><br /></div>
         </div>
-       </div> <Stats/><br /><br /><br /><br />
+       </div> <Stats/><br /><br />
       <div ref={hihiRef} className={`fade-in ${hihiInView ? 'visible' : ''}`}>
         <Hihi/>
-      </div><br /><br />
-      <div ref={faqRef} className={`fade-in ${faqInView ? 'visible' : ''}`}>
-        <FAQ/>
       </div>
-      <HeroSection/>
+      <div ref={faqRef} className={`fade-in ${faqInView ? 'visible' : ''}`}>
+        <FAQ/><br />
+      </div>
+      <HeroSection/><br /><br />
       <div style={{ backgroundColor: "#ffefe547", height: "10px" }}></div>
+      </div>
       <Footer/>
     </>
   );

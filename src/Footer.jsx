@@ -7,8 +7,7 @@ const Footer = () => {
       <div className="footer-back-to-top">
         <button 
           className="back-to-top-button" 
-          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        >
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
           الرجوع للأعلى
         </button>
       </div>
@@ -21,7 +20,9 @@ const Footer = () => {
         </div>
         <div className="footer-links">
           <a href="#about">عن غسلة</a>
-          <a href="#contact">تواصل معنا</a>
+          <a aria-label="Chat on WhatsApp" href="https://wa.me/353871683234" target="_blank" rel="noopener noreferrer">
+          تواصل معنا
+          </a>
         </div>
       </div>
       <div className="footer-bottom">
@@ -32,7 +33,7 @@ const Footer = () => {
           <a href="#locations">المناطق المتاحة</a>
         </div>
         <div className="footer-copy">
-          جميع الحقوق محفوظة، شركة سويتر لغسيل السيارات 2023
+          جميع الحقوق محفوظة، شركة غسلة لغسيل السيارات 2025
         </div>
       </div>
     </footer>

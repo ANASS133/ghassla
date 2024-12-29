@@ -3,9 +3,15 @@ html {
   font-family: 'Droid Arabic Kufi', sans-serif;
   font-weight: bold;
 }
-
+.alles{
+  margin: 0 25px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
 .header {
-  background: linear-gradient(to bottom, #ffc198, #fff7f2);
+  background-image: linear-gradient(to bottom, #ffdbc7, #ffd2ba 0%, #ffefe5 50%);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -237,9 +243,9 @@ html {
 /* First */
 
 .promo-section {
-  background: url('/public/a1.png') no-repeat bottom/cover;
+  background: url('/public/a1.png') no-repeat center/cover;
   color: white;
-  padding: 50px 150px 225px 150px;
+  padding: 100px 150px;
   text-align: center;
   border-radius: 20px;
   font-family: 'Droid Arabic Kufi', sans-serif;
@@ -622,7 +628,7 @@ html {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Reduce min width */
   gap: 15px; /* Slightly smaller gap */
-  padding: 15px; /* Reduce padding */
+  padding: 15px 0px; /* Reduce padding */
 }
 
 .most-sales-card {
@@ -717,14 +723,15 @@ html {
 
 .banner-container {
   position: relative;
-  width: 100%;
-  max-width: 1200px; /* Adjust as needed */
-  margin: 0; /* Ensure no extra margin is applied */
-  padding: 0; /* Ensure no extra padding is applied */
+  margin: 0 25px; /* No extra margin */
+  padding: 0; /* No extra padding */
 }
 
 .banner-image {
-  width: 100%;
-  height: auto;
-  display: block; /* Removes inline image spacing issues */
+  width: 94vw;
+  height: auto; /* Maintain aspect ratio */
+  margin: 0; /* Remove any extra margin */
+  position: relative; /* Ensure proper positioning */
 }
+
+

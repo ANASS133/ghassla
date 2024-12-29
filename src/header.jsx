@@ -11,12 +11,18 @@ function Header() {
   return (
     <header className="header">
       <div className="container">
-        <button className="cta-button">جرب غسلة الآن</button>
+        <button className="cta-button">
+          <a aria-label="Chat on WhatsApp" href="https://wa.me/353871683234" target="_blank" rel="noopener noreferrer">
+          جرب غسلة الآن</a>
+</button>
         <nav>
           <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
+            <li><a href="#faq-section">Q&A</a></li>
+            <li><a href="#">خدماتنا</a></li>
+            <li><a href="#most-sales-container">عروضنا</a></li>
+            <li><a href="#container1">لماذا تختارنا</a></li>
             <li><a href="#">عن غسلة</a></li>
-            <li><a href="#">العروض و الخدمات</a></li>
-            <li><a href="#faq-section">الأسئلة الشائعة</a></li>
+
           </ul>
         </nav>
 

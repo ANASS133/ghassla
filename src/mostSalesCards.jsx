@@ -65,7 +65,7 @@ const MostSalesA = () => {
 
   return (
     <>
-        <div className="most-sales-header">
+        <div className="most-sales-header" id="most-sales-header">
         <h2> الأكثر مبيعاً</h2>
       </div>
     <div className="most-sales-container">

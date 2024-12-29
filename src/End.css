@@ -219,3 +219,18 @@
   background-color: #d54d0a;
   transform: translateY(-2px);
 }
+.social-icons {
+  animation: grow-shrink 2s ease-in-out infinite;
+}
+
+@keyframes grow-shrink {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
