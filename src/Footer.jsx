@@ -13,11 +13,15 @@ const Footer = () => {
       </div>
       <br /><br />
       <div className="footer-top">
-        <div className="social-icons">
-          <a aria-label="Chat on WhatsApp" href="https://wa.me/353871683234" target="_blank" rel="noopener noreferrer">
-            <img alt="Chat on WhatsApp" src="whatsapp.png" />
-          </a>
-        </div>
+      <div className="social-icons">
+  <a aria-label="Chat on WhatsApp" href="https://wa.me/353871683234" target="_blank" rel="noopener noreferrer">
+    <div className="whatsapp-container">
+      <img alt="Chat on WhatsApp" src="whatsapp.png" />
+      <span className="whatsapp-message">حاب تحجز موعد معانا اليوم</span>
+    </div>
+  </a>
+</div>
+
         <div className="footer-links">
           <a href="#about">عن غسلة</a>
           <a aria-label="Chat on WhatsApp" href="https://wa.me/353871683234" target="_blank" rel="noopener noreferrer">

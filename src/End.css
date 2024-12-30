@@ -201,6 +201,49 @@
   left: 50%;
   transform: translateX(-50%);
 }
+.whatsapp-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.whatsapp-message {
+  font-size: 0.7rem;
+  color: #333;
+  margin-left: 9px;
+  font-weight: bold;
+  background-color: white;
+  padding: 8px 12px;
+  border-radius: 15px;
+  white-space: nowrap;
+  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.4);
+  position: relative; /* Positioning for the triangle */
+}
+
+/* Adding the triangle on the left */
+.whatsapp-message::before {
+  content: '';
+  position: absolute;
+  left: -10px; /* Position the triangle */
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6px 10px 6px 0; /* Triangle shape */
+  border-color: transparent white transparent transparent; /* Match message background color */
+}
+
+
+
+.social-icons img {
+  animation: grow-shrink 2s ease-in-out infinite; /* Animation remains on the image */
+}
+
+.whatsapp-message:hover {
+  animation: none; /* Ensure no animation on hover */
+}
+
 
 .back-to-top-button {
   padding: 10px 20px;
@@ -219,10 +262,6 @@
   background-color: #d54d0a;
   transform: translateY(-2px);
 }
-.social-icons {
-  animation: grow-shrink 2s ease-in-out infinite;
-}
-
 @keyframes grow-shrink {
   0% {
     transform: scale(1);
